@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.seneca.android.senfitbeta.SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/words_"
+        android:text="REGISTER TO SENFIT"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:id="@+id/Email"
+        android:textColorHint="#000"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:id="@+id/password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Reg_"
+        android:textColor="#fff"
+        android:background="@drawable/custom_button"
+        android:text="Register"/>
+
+    <TextView
+        android:id="@+id/Log_"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Back To Login"
+        android:textAppearance="?android:attr/textAppearanceButton" />
+
+</LinearLayout>

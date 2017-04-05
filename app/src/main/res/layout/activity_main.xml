@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.seneca.android.senfitbeta.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceButton"
+        android:id="@+id/tvEmail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:id="@+id/allworkouts"
+        android:textColor="#ffffff"
+        android:text="View All WorkOuts"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/allMuscle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:padding="20dp"
+        android:text="View All WorkOuts By Muscles"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/allBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:padding="20dp"
+        android:text="View All WorkOuts By Body Parts"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="230dp"
+        android:text="LogOut" />
+
+</LinearLayout>

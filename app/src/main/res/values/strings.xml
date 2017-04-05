@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">seneFit</string>
+    <string name="top"><u><b><i>Login to myID</i></b></u></string>
+    <string name="info1">Please Enter Your Myid Username and paswword to</string>
+    <string name="info2">change Your Fitness Life Style For Good</string>
+</resources>
